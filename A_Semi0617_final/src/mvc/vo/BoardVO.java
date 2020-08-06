@@ -8,8 +8,32 @@ public class BoardVO {
    private String search_option, keyword;
 private int maxnum;
    
-   
-   public int getMaxnum() {
+//´ñ±Û
+private int cm_num,cm_user_num;
+private String cm_content;   
+
+
+
+
+   public int getCm_num() {
+	return cm_num;
+}
+public void setCm_num(int cm_num) {
+	this.cm_num = cm_num;
+}
+public int getCm_user_num() {
+	return cm_user_num;
+}
+public void setCm_user_num(int cm_user_num) {
+	this.cm_user_num = cm_user_num;
+}
+public String getCm_content() {
+	return cm_content;
+}
+public void setCm_content(String cm_content) {
+	this.cm_content = cm_content;
+}
+public int getMaxnum() {
 	return maxnum;
 }
 public void setMaxnum(int maxnum) {
